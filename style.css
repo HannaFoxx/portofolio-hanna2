@@ -9,16 +9,18 @@ Version: 1.0
 
 
 body {
+    background-image: url(../portofolio-hanna/image/pagzeriene1.png);
+    background-size: cover;
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #343a4000;
-    color: white;
-    padding: 10px 0;
+    background-color: #ffffff9f;
+    color: rgb(0, 0, 0);
+    padding: 15px 0;
 }
 
 header ul {
@@ -28,12 +30,12 @@ header ul {
 
 header ul li {
     display: inline;
-    margin-right: 20px;
+    margin-left: 10px;
 }
 
 header ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -44,27 +46,26 @@ header ul li a:hover {
 
 .about {
     padding: 50px 0;
-    background-color: #ffffff00;
+    background-color: #ffffff9f;
     text-align: center;
     color: rgba(255, 255, 255, 0);
-    background-image: url(../portofolio-hanna/image/page1.png);
-    background-size: cover;
+
 }
 
 .about h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .about p {
     font-size: 18px;
     line-height: 1.6;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .about .btn-primary {
-    background-color: #ffffff;
+    background-color: #ffffff00;
     border-color: rgb(230, 78, 116), 0, 157;
     font-weight: bold;
 }
@@ -74,15 +75,14 @@ header ul li a:hover {
     border-radius:50%;
 }
 .competences {
-    background-color: rgb(26, 27, 27);
     padding: 50px 0;
     text-align: center;
-    color: white;
+    color: rgba(255, 255, 255, 0);
 }
 
 .competences h2 {
     font-size: 24px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .competences ul {
@@ -97,13 +97,12 @@ header ul li a:hover {
 
 .projet {
     padding: 50px 0;
-    background-color: rgb(26, 27, 27);
     text-align: center;
 }
 
 .projet h2 {
     font-size: 24px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .card {
@@ -125,14 +124,14 @@ header ul li a:hover {
 }
 
 .card a.btn-primary {
-    background-color: rgb(223, 110, 167), 0, 140;
-    border-color: #19191a;
+    background-color: rgba(223, 110, 167, 0), 0, 140;
+    border-color: #19191a00;
     font-weight: bold;
 }
 
 .footer {
-    background-color: #343a40;
-    color: white;
+    background-color: #343a4000;
+    color: rgb(0, 0, 0);
     padding-top: 15px;
     padding-bottom: 10px;
 }
@@ -159,7 +158,7 @@ header ul li a:hover {
 
 .footer__rs li a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 24px;
 }
 
@@ -175,7 +174,7 @@ header ul li a:hover {
 
 .footer__list li a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
