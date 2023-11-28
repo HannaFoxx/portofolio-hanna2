@@ -8,25 +8,6 @@
     
     <link rel="stylesheet" href="<?php echo esc_url( get_stylesheet_uri() ); ?>" type="text/css" />
     <?php wp_head(); ?>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <ul>
-                        <li>
-                            <a href="../acceuil/index.html">Accueil</a>
-                        </li>
-                        <li>
-                            <a href="../about/propos.html">A propos</a>
-                        </li>
-                        <li>
-                            <a href="../Brief bateau/brief2/contact/contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
   </head>
   <body <?php body_class(); ?>>
     <nav id="site-navigation" class="main-navigation">
