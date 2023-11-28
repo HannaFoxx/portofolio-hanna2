@@ -1,4 +1,6 @@
-
+<?php 
+    //récupère le contenu du fichier header.php
+    get_header(); ?>
     <header>
         <div class="container">
             <div class="row">
@@ -67,7 +69,7 @@
             <div class="row">
                 <div class="col-12 col-md-3">
                     <div class="card">
-                        <img src="../Image/Capture d'écran 2023-11-16 151250.png" class="card-img-top" alt="jeux de carte qu'il faut retourner pour trouver des paires">
+                        <img src="#" class="card-img-top" alt="jeux de carte qu'il faut retourner pour trouver des paires">
                         <div class="card-body">
                           <h5 class="card-title">Mémory</h5>
                           <p class="card-text">Un mémory fait en Js .</p>
@@ -191,4 +193,8 @@
                 </div>
             </div>
         </div>
+        <?php wp_link_pages(); ?>
+    <?php 
+    //récupère le contenu du fichier footer.php
+    get_footer(); ?>
     </footer>

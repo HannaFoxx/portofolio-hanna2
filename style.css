@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #343a40;
+    background-color: #343a4000;
     color: white;
     padding: 10px 0;
 }
@@ -44,12 +44,11 @@ header ul li a:hover {
 
 .about {
     padding: 50px 0;
-    background-color: #000000;
+    background-color: #ffffff00;
     text-align: center;
-    color: white;
-    background-image: url(../portofolio-hanna/image/index_picture.jpg);
+    color: rgba(255, 255, 255, 0);
+    background-image: url(../portofolio-hanna/image/page1.png);
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .about h1 {
@@ -65,7 +64,7 @@ header ul li a:hover {
 }
 
 .about .btn-primary {
-    background-color: #000000;
+    background-color: #ffffff;
     border-color: rgb(230, 78, 116), 0, 157;
     font-weight: bold;
 }
@@ -134,8 +133,8 @@ header ul li a:hover {
 .footer {
     background-color: #343a40;
     color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .footer h4 {
