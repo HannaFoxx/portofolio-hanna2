@@ -1,0 +1,231 @@
+/*
+Theme Name: Portfolio de Martin
+Theme URI: https://www.wordpresspourlesnuls.fr/
+Author: Martin Chedaille
+Author URI: https://www.wordpresspourlesnuls.fr/
+Description: Ce thème permet de montrer mon portfolio au monde !!!
+Version: 1.0
+*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #1d1e1f;
+}
+
+.about {
+    padding: 50px 0;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    background-image: url(../Image/index_picture.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
+
+.about .btn-primary {
+    background-color: #000000;
+    border-color: rgb(230, 78, 116), 0, 157;
+    font-weight: bold;
+}
+.cover{
+    height: 200px;
+    width: 200px;
+    border-radius:50%;
+}
+.competences {
+    background-color: rgb(26, 27, 27);
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+.competences h2 {
+    font-size: 24px;
+    color: white;
+}
+
+.competences ul {
+    padding: 0;
+    list-style: none;
+}
+
+.competences ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.projet {
+    padding: 50px 0;
+    background-color: rgb(26, 27, 27);
+    text-align: center;
+}
+
+.projet h2 {
+    font-size: 24px;
+    color: white;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card a.btn-primary {
+    background-color: rgb(223, 110, 167), 0, 140;
+    border-color: #19191a;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer p {
+    font-size: 16px;
+}
+
+.footer__rs {
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer__rs li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer__rs li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.footer__list {
+    padding: 0;
+    list-style: none;
+}
+
+.footer__list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer__list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    header ul li {
+        margin-right: 10px;
+    }
+
+    .about h1 {
+        font-size: 24px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    .competences h2 {
+        font-size: 20px;
+    }
+
+    .competences ul li {
+        font-size: 16px;
+    }
+
+    .projet h2 {
+        font-size: 20px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .footer h4 {
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+
+    .footer__rs li a {
+        font-size: 20px;
+    }
+
+    .footer__list li {
+        font-size: 14px;
+    }
+}
