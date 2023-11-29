@@ -66,7 +66,7 @@
                             +33 06 35 23 11 66
                         </li>
                         <li>
-                            <a href="Hanna.rouly.pro@gmail.com">
+                            <a href="mailto:Hanna.rouly.pro@gmail.com">Hanna.rouly.pro@gmail.com</a>
                                 Hanna.rouly.pro@gmail.com
                             </a>
                         </li>
