@@ -9,173 +9,268 @@ Version: 1.0
 
 
 body {
+    font-family: inter, sans-serif;
+    background-repeat: no-repeat;
+    width: 100%;
+    box-sizing: 500%;
+    color: #000000;
+    margin: 0;
+    padding: 0;
     background-image: url(../portofolio-hanna/image/pagzeriene1.png);
     background-size: cover;
-    background-attachment: fixed;
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-
 header {
-    background-color: #ffffff9f;
-    color: rgb(0, 0, 0);
-    padding: 15px 0;
+    background-color: #ffffff91;
+    padding: 0px;
+    text-align: center;
+    height: 10px;
+    padding-left: 0vh;
+    padding-right: 0vh;
+    margin-left: 0vh;
+    margin-right: 0vh;
+    margin: 0;
 }
 
-header ul {
-    padding: 0;
-    list-style: none;
-}
-
-header ul li {
-    display: inline;
-    margin-left: 10px;
-}
-
-header ul li a {
+.pseudoheader a{
+    margin: 0;
+    display: flex;
+    text-align: center;
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-header ul li a:hover {
     color: #000000;
 }
-
-.about {
-    padding: 50px 0;
-    background-color: #ffffff9f;
-    text-align: center;
-    color: rgba(255, 255, 255, 0);
-
+.pseudoheader ul{
+    display: flex;
+    flex-direction: row !important; 
+    justify-content: center;
 }
-
-.about h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-}
-
-.about p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: rgb(0, 0, 0);
-}
-
-.about .btn-primary {
-    background-color: #000000;
-    border-color: rgb(0, 0, 0), 0, 157;
-    font-weight: bold;
-}
-.cover{
-    height: 200px;
-    width: 200px;
-    border-radius:50%;
-}
-.competences {
-    padding: 50px 0;
-    text-align: center;
-    color: rgba(255, 255, 255, 0);
-}
-
-.competences h2 {
-    font-size: 24px;
-    color: rgb(0, 0, 0);
-}
-
-.competences ul {
-    padding: 0;
+.pseudoheader li{
     list-style: none;
-}
-
-.competences ul li {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.projet {
-    padding: 50px 0;
-    text-align: center;
-}
-
-.projet h2 {
-    font-size: 24px;
-    color: rgb(0, 0, 0);
-}
-
-.card {
-    margin-bottom: 20px;
-    border: none;
-}
-
-.card-title {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.card-text {
-    font-size: 16px;
-}
-
-.card-body {
-    padding: 20px;
-}
-
-.card a.btn-primary {
-    background-color: rgba(0, 0, 0, 0) 140;
-    border-color: rgba(0, 0, 0, 0)
-}
-
-.footer {
-    background-color: #343a4000;
-    color: rgb(0, 0, 0);
-    padding-top: 15px;
-    padding-bottom: 10px;
-}
-
-.footer h4 {
+    margin: 20px;
     font-size: 20px;
-    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
 }
-
-.footer p {
-    font-size: 16px;
+h4{
+    text-align: center;
 }
-
+li{
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    color: black;
+}
+ul{
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    color: black;
+}
 .footer__rs {
-    padding: 0;
-    list-style: none;
-    margin-top: 20px;
-}
-
-.footer__rs li {
-    display: inline;
-    margin-right: 10px;
-}
-
-.footer__rs li a {
+    display: flex;
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 24px;
-}
-
-.footer__list {
-    padding: 0;
     list-style: none;
+    color: black;
+    padding: 10px;
+    justify-content: center;
+}
+.footer__rs i{
+    margin: 10px;
+    color: black;
 }
 
-.footer__list li {
+.container {
+    max-width: 1000px;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    position: relative;
+    text-align: center; /* Centrer le contenu horizontalement */
+
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #ffffff;
+}
+
+
+h2{
+    font-size: 23px;
+    text-align: center;
+}
+p {
     font-size: 16px;
-    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1.8;
+    text-align: left;
+    letter-spacing: 2px;
 }
 
-.footer__list li a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
+.logo {
+    display: flex;
+    max-width: 140px;
+    margin: 0 auto;
+    margin-top: 0px;
+    height: 120px;
+    align-items: center;
+    text-align: center;
+    
 }
+
+.games-list {
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+.game {
+    flex: 0 0 auto;
+    border: 1px solid #ffffff;
+    margin-right: 10px; /* Ajouter de l'espace entre les cartes de jeu */
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.4);
+    width: 230px; /* Largeur des cartes de jeu */
+    height: 980px; /* Hauteur des cartes de jeu */
+    scroll-snap-align: start; /* Aligner les cartes sur la ligne de défilement */
+}
+
+.game img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    background: cover;
+}
+
+.game-description {
+    padding: 30px;
+}
+
+.game:hover {
+    transform: scale(1.05);
+}
+
+
+.background-shapes div {
+    position: absolute;
+    opacity: 0.3;
+}
+
+
+/* Effets d'écriture */
+.fancy-text {
+    position: relative;
+}
+
+.fancy-text::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #ffffff, transparent);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: skewX(-10deg);
+    transform-origin: bottom right;
+}
+
+.fancy-text h2 {
+    margin: 0;
+    padding: 10px;
+    font-size: 28px;
+    background-color: #ffffff;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+}
+
+/* Histoire de Jeon */
+.history {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: left;
+    
+}
+
+.game:nth-child(1) {
+    margin-left: 15px; /* Ajouter une marge gauche à la première carte de jeu */
+}
+
+@media (max-width: 400px) {
+    .container {
+        padding: 10px;
+        width: 200px;
+
+    }
+}
+.body{
+    background: fixed;
+    @media (min-width: 1250px) {
+        .body {
+          width: 850px;
+        }
+      }
+    @media (min-width: 768px) {
+        .body {
+          width: 750px;
+        }
+        .container{ 
+            max-width: 350px;
+            margin: 5px auto;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.658);
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+            position: relative;
+            text-align: center; /* Centrer le contenu horizontalement */
+
+        }
+      }
+      @media (min-width: 400px) {
+        .body {
+          width: 350px;
+        }
+      }
+      @media (min-width: 300px) {
+        .body {
+          width: 200px;
+        }
+        .container{ 
+            max-width: 50px;
+            margin: 5px auto;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.658);
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+            position: relative;
+            text-align: center; /* Centrer le contenu horizontalement */
+            text-size-adjust: 10px;
+
+        }
+    }
+    }
 
 @media (max-width: 768px) {
     header ul li {

@@ -5,7 +5,6 @@
                 <div class="col-12 col-md-4"><!--colonne des icones et le about-->
                     <h4>About.</h4>
                     <p>Quelque résaux sur lequelle vous pouvez me trouver</p>
-                    <h4>Connect</h4>
                     <ul class="footer__rs">
                         <li>
                             <a href="https://icons.getbootstrap.com/icons/instagram/" title="instagram">
@@ -78,7 +77,7 @@
         <div class="container">
             <div class="row"><!--copyright-->
                 <div class="col-12 text-center">
-                    <p class="copyright">Copyright ©2023 All rights reserved | This template is made with <i class="bi bi-heart-fill"></i> by Hanna</a></p>
+                    <p class="copyright">Copyright ©2023 All rights reserved | This sites made with <i class="bi bi-heart-fill"></i> by Hanna</a></p>
                 </div>
             </div>
         </div>
