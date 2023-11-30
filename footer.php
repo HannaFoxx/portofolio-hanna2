@@ -45,13 +45,13 @@
                             <ul class="footer__list">
                                 <li>
                                     <a href="#">Home</a>
-                                </li>
+                                </li><br>
                                 <li>
                                     <a href="#">About-us</a>
-                                </li>
+                                </li><br>
                                 <li>
                                     <a href="#">contact</a>
-                                </li>
+                                </li><br>
                             </ul>
                         </div>
                     </div>
@@ -61,13 +61,12 @@
                     <ul class="footer__list">
                         <li>
                             30190, 1 plan de la croix La Calmette 
-                        </li>
+                        </li><br>
                         <li>
                             +33 06 35 23 11 66
-                        </li>
+                        </li><br>
                         <li>
                             <a href="mailto:Hanna.rouly.pro@gmail.com">Hanna.rouly.pro@gmail.com</a>
-                                Hanna.rouly.pro@gmail.com
                             </a>
                         </li>
                     </ul>
