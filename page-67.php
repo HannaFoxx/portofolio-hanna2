@@ -1,7 +1,7 @@
 <?php 
     //récupère le contenu du fichier header.php
     get_header(); ?>
-    <video id="background-video" autoplay loop muted poster="http://localhost/wordpress/wp-content/uploads/2023/11/poster.png"> <source src="http://localhost/wordpress/wp-content/uploads/2023/11/video.mp4" type="video/mp4"> </video>
+    <video id="background-video" autoplay loop muted poster="http://localhost/wordpress/wp-content/uploads/2023/11/Capture-decran-2023-11-30-162150.png"> <source src="http://localhost/wordpress/wp-content/uploads/2023/11/video2-2.mp4" type="video/mp4"> </video>
     <div class="pseudoheader col-12">
     
                 <?php
@@ -19,26 +19,26 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-12 col-md-6">
                     <form id="forme">
-                        <div class="mb-3">
+                        <div class="animate__animated animate__bounceIn mb-3">
                           <label for="InputName1" class="form-label">Nom de famille</label>
                           <input type="text" class="form-control" id="Name1" placeholder="Nom">
                         </div>
-                        <div class="mb-3">
+                        <div class="animate__animated animate__bounceIn mb-3">
                             <label for="InputName2" class="form-label">Prénom</label>
                             <input type="text" class="form-control" id="name2" placeholder="Prénom">
                         </div>
-                        <div class="mb-3">
+                        <div class="animate__animated animate__bounceIn mb-3">
                             <label for="InputNuméro" class="form-label">Numéro</label>
                             <input type="number" class="form-control" id="Numéro" placeholder="+33">
                         </div>
-                        <div class="mb-3">
+                        <div class="animate__animated animate__bounceIn mb-3">
                             <label for="exampleInputEmail1" class="form-label">Adresse email</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Exemple@gmail.com">
                         <div id="emailHelp" class="form-text" >Nous ne partagerons jamais votre email avec des tiers</div>
                         </div>
                         <input type="checkbox" name="acceptecgu" required> J'accepte les <a href="lien vers les cgu">CGU</a><br>
                         <div class="btnconnect"><br>
-                            <button type="submit" class="btn btn-primary" onclick="verify()" >Se contacter</button>
+                            <button type="submit" class="animate__animated animate__bounceIn btn btn-primary" onclick="verify()" >Se contacter</button>
                         </div>
                         <div id="messageerreur" class="alert" role="alert"></div>
                     </form>

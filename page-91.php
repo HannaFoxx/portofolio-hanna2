@@ -1,7 +1,7 @@
 <?php 
     //récupère le contenu du fichier header.php
     get_header(); ?>
-     <video id="background-video" autoplay loop muted poster="http://localhost/wordpress/wp-content/uploads/2023/11/poster.png"> <source src="http://localhost/wordpress/wp-content/uploads/2023/11/video.mp4" type="video/mp4"> </video>
+     <video id="background-video" autoplay loop muted poster="http://localhost/wordpress/wp-content/uploads/2023/11/Capture-decran-2023-11-30-162150.png"> <source src="http://localhost/wordpress/wp-content/uploads/2023/11/video2-2.mp4" type="video/mp4"> </video>
     <div class="pseudoheader col-12">
                 <?php
                                     wp_nav_menu(
@@ -14,10 +14,10 @@
                 </div>
 <body>
    <div class="container">
-       <img src="<?php echo bloginfo('template_directory')."/image/me1223.png"?>" alt="Photo de anna" class="profile-pic">
+       <img src="<?php echo bloginfo('template_directory')."/image/me1223.png"?>" alt="Photo de anna" class="profile-pic animate__animated animate__slideInDown">
        <div class="history">
-           <h2 class="fancy-text">A propos de moi</h2><br>
-           <h4>👩‍💻 Bonjour à tous !
+           <h2 class="animate__animated animate__tada fancy-text">A propos de moi</h2><br>
+           <h4 class="animate__animated animate__bounceInUp">👩‍💻 Bonjour à tous !
 
 Je suis Annaëlle rouly mais on m'appelle aussi Hanna, une développeuse web rousse passionnée par l'art du code et l'univers infini des possibilités digitales. Entre deux lignes de code, vous me trouverez plongée dans l'univers des jeux vidéo, où chaque aventure virtuelle stimule ma créativité.<br><br>
 

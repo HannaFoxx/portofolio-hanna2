@@ -267,11 +267,37 @@ p {
             text-align: center; /* Centrer le contenu horizontalement */
 
         }
+        #background-video {
+            width: 2440px;
+            height: 980px;
+            object-fit: cover;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+          }
       }
       @media (min-width: 400px) {
         .body {
           width: 350px;
         }
+        #background-video {
+            width: 440px;
+            height: 1080px;
+            object-fit: cover;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+          }
       }
       @media (min-width: 300px) {
         .body {
