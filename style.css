@@ -171,7 +171,7 @@ p {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.4);
-    width: 230px; /* Largeur des cartes de jeu */
+    width: 235px; /* Largeur des cartes de jeu */
     height: 980px; /* Hauteur des cartes de jeu */
     scroll-snap-align: start; /* Aligner les cartes sur la ligne de défilement */
 }

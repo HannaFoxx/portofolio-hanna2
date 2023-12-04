@@ -1,7 +1,7 @@
 <?php 
     //récupère le contenu du fichier header.php
     get_header(); ?>
-     <video id="background-video" autoplay loop muted poster="http://localhost/wordpress/wp-content/uploads/2023/11/Capture-decran-2023-11-30-162150.png"> <source src="http://localhost/wordpress/wp-content/uploads/2023/11/video2-2.mp4" type="video/mp4"> </video>
+     <video id="background-video" autoplay loop muted poster="http://localhost/wordpress/wp-content/uploads/2023/12/Capturebla5502.png"> <source src="http://localhost/wordpress/wp-content/uploads/2023/12/mylivewallpapers-com-Sun-Rays-4K.mp4" type="video/mp4"> </video>
     <section class="about">
         <div class="container">
             <div class="row">
