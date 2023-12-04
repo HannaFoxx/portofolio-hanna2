@@ -34,8 +34,6 @@ En plus de mon amour pour le développement, je m'évade en jouant du violon. Le
 Que ce soit dans l'univers pixelisé des jeux rétro ou dans les graphismes époustouflants des jeux modernes, je trouve une source d'inspiration infinie. Les jeux vidéo sont pour moi une école de créativité et d'innovation.<br><br>
        </div>
    </div>
-        
-    
         <?php wp_link_pages(); ?>
     <?php 
     //récupère le contenu du fichier footer.php
