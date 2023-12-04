@@ -32,14 +32,6 @@ En plus de mon amour pour le développement, je m'évade en jouant du violon. Le
 🎮 Gamer dans l'âme :<br><br>
 
 Que ce soit dans l'univers pixelisé des jeux rétro ou dans les graphismes époustouflants des jeux modernes, je trouve une source d'inspiration infinie. Les jeux vidéo sont pour moi une école de créativité et d'innovation.<br><br>
-
-🌐 Connectée en permanence :<br><br>
-
-En tant que passionnée de technologie, je ne peux pas me passer des réseaux sociaux. C'est là que je me connecte avec d'autres esprits créatifs, partage mes projets et découvre de nouvelles idées qui nourrissent ma curiosité.<br><br>
-
-Voilà un petit aperçu de qui je suis, entre lignes de code, pas de danse, mélodies enchanteresses et aventures virtuelles. Prête à explorer de nouveaux horizons numériques et à partager cette passion qui fait battre mon cœur de développeuse !<br><br>
-
-🚀 Let's code, dance, play, and connect!</h4><br>
        </div>
    </div>
         

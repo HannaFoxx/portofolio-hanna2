@@ -12,18 +12,17 @@ body {
     font-family: inter, sans-serif;
     width: 100%;
     box-sizing: 100%;
-    zoom: 68%;
+    zoom: 75%;
     color: #000000;
     margin: 0;
     padding: 0;
     background-size: cover;
     background-repeat: no-repeat;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
 #background-video {
-    width: 2440px;
-    height: 980px;
     object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,6 +31,9 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
+    position: absolute;
+    width: 2800px;
+    height: 1800px;
     z-index: -1;
   }
 header {
